@@ -21,9 +21,18 @@
         <li class=active>
           <%=  link_to "Acceuil", root_path %>
         </li>
-        <li> <%=  link_to "Produits", "#"%></li>
+        <li class="dropdown">
+          <%=  link_to "Produits<b class='caret'></b>".html_safe, "#", class:"dropdown-toggle", id:"drop4", data: {toggle: "dropdown"}, role:"button"  %>
+          <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+            <li><a role="menuitem" tabindex="-1" href="#">PRODUCT_1</a></li>
+            <li><a role="menuitem" tabindex="-1" href="#">PRODUCT_1</a></li>
+            <li><a role="menuitem" tabindex="-1" href="#">PRODUCT_1</a></li>
+          </ul>
+        </li>
         <li> <%=  link_to "A Propos", about_path %></li>
         <li> <%=  link_to "Contact", "#" %></li>
+
+
       </ul>
     </nav>
   </div>
