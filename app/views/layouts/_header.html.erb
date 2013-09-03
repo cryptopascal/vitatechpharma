@@ -1,0 +1,30 @@
+<header class="container header">
+  <div class=row>
+    <div class=span4>
+      <h1>
+        <%= image_tag "logo.png", alt:"logo", id:"logo" %>
+        <%= Vitatechpharma.config.site_name %>
+      </h1>
+    </div>
+    <!-- Menu & Search -->
+    <nav class=span8>
+      <form class="form-horizontal pull-right">
+        <div class="control-group">
+          <div class="input-append input-prepend">
+            <span class=add-on><i class=icon-search></i></span>
+            <input class=span2 type=text size=16>
+            <button class=btn type=button>search</button>
+          </div>
+        </div>
+      </form>
+      <ul class="nav nav-pills pull-right">
+        <li class=active>
+          <%=  link_to "Acceuil", root_path %>
+        </li>
+        <li> <%=  link_to "Produits", "#"%></li>
+        <li> <%=  link_to "A Propos", about_path %></li>
+        <li> <%=  link_to "Contact", "#" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,37 @@
+<section class="row imageBox">
+  <div class=span12>
+    <!-- The large image carousel on the top -->
+    <div id=homeCarousel class="carousel slide">
+      <!-- Carousel items -->
+      <div class=carousel-inner>
+        <div class="active item">
+          <%= image_tag "carousel/normal/1.jpg", alt:"" %>
+          <div class="carousel-caption align-right">
+            <h1>Your Product</h1>
+            <p>Should attract all attention on your home page.</p>
+            <p><%= link_to "More Information", "#", class:"btn btn-default btn-large" %></p>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag "carousel/normal/3.jpg", alt:"" %>
+          <div class=carousel-caption>
+            <h1>Beautiful Content</h1>
+            <p>Deserves to have all the space it wants.</p>
+            <p><%= link_to "Learn Why", "#", class:"btn btn-default btn-large" %></p>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag "carousel/normal/4.jpg", alt:"" %>
+          <div class="carousel-caption align-right">
+            <h1>Nice Pictures</h1>
+            <p>Make your website look awesome.</p>
+            <p><%= link_to "How Can This Be?", "#", class:"btn btn-default btn-large" %></p>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel nav -->
+      <%= link_to "&lsaquo;".html_safe , "#homeCarousel", class:"carousel-control left", data: { slide: "prev" } %>
+      <%= link_to "&rsaquo;".html_safe , "#homeCarousel", class:"carousel-control right", data: { slide: "next" }  %>
+    </div>
+  </div>
+</section>

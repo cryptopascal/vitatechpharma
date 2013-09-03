@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require bootstrap
+//= require modernizr.min
+//= require lightbox
+//= require plugins
+//= require script
+

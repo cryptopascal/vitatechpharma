@@ -1,4 +1,10 @@
 Vitatechpharma::Application.routes.draw do
+
+
+  root to: 'main_pages#home'
+  match '/about', to: 'main_pages#about'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
