@@ -3,7 +3,8 @@ Vitatechpharma::Application.routes.draw do
 
   root to: 'main_pages#home'
   match '/about', to: 'main_pages#about'
-
+  post "/contact" => "main_pages#sendMessage"
+  match '/contact', to: 'main_pages#contact'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

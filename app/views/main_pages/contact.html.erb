@@ -1,0 +1,84 @@
+<section class="row gewgleBox">
+  <div class=span12>
+    <iframe width="100%" height="380" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.nl/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=google+inc&amp;aq=&amp;sll=52.469397,5.509644&amp;sspn=5.522543,13.73291&amp;ie=UTF8&amp;hq=google+inc&amp;hnear=&amp;radius=15000&amp;t=m&amp;ll=42.476932,-83.246112&amp;spn=0.071946,0.071946&amp;output=embed"></iframe>
+  </div>
+</section>
+<section class="row">
+  <!-- four nice small boxes filled with important things -->
+  <div class=span12>
+    <header class="page-header">
+      <h1>
+        Nous sommes ICI
+        <small>Vous êtes le bienvenue!</small>
+      </h1>
+    </header>
+  </div>
+  <div class="span8">
+    <h2>Informations</h2>
+
+    <p><%= Vitatechpharma.config.site_name %><br>
+      151 hassan ii, agadir<br>
+      80000 Morocco<br>
+      phone: +212 528441199<br>
+      email: contact@vitatechpharma.com</p>
+
+    <h2><%= Vitatechpharma.config.site_name %> est à votre service</h2>
+
+    <p>Vous avez des remarques, souhaitez obtenir des précisions sur nos compléments alimentaires ?
+      Contactez nos services clients, renseignez l'objet de votre demande et indiquez vos coordonnées.
+      Nous vous répondrons dans les meilleurs délais. </p>
+
+    <p>Une équipe de conseillères dédiées aux professionnels de santé est à votre écoute.</p>
+  </div>
+</section>
+<% if @contact.errors.any? %>
+    <div id="error explanation">
+      <div class="alert alert-error">
+        Le formulaire contient <%= pluralize(@user.errors.count, "error") %>.
+      </div>
+      <ul>
+        <% @contact.errors.full messages.each do |msg| %>
+            <li>* <%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+<% end %>
+<section class="row contactBox">
+  <!-- some text & a twitter unit -->
+  <div class=span12>
+    <header class="page-header">
+      <h1>
+        Instant contact
+        <small>send us an email</small>
+      </h1>
+    </header>
+    <%= form_for @contact, url: {action: "sendMessage"}, html: {class: "form-horizontal"} do |f| %>
+        <fieldset>
+          <div class=control-group>
+            <%= f.label :email, "E-mail", class:"control-label" %>
+            <div class="controls">
+              <%= f.text_field :email, class:"input-xlarge" %>
+            </div>
+          </div>
+          <div class=control-group>
+            <%= f.label :subject, "Objet", class:"control-label" %>
+            <div class="controls">
+              <%= f.text_field :subject, class:"input-xlarge" %>
+            </div>
+          </div>
+          <div class=control-group>
+            <%= f.label :message, "Message", class:"control-label" %>
+            <div class="controls">
+              <%= f.text_area :message, class:"input-xlarge" %>
+            </div>
+          </div>
+          <div class=control-group>
+            <div class="controls">
+              <%= f.submit "Envoyer !", class: "btn btn-large" %>
+            </div>
+          </div>
+        </fieldset>
+    <% end %>
+
+  </div>
+</section>
