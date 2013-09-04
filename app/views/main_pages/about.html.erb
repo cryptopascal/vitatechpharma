@@ -9,13 +9,20 @@
     </header>
   </div>
   <div class=span9>
-    <h2>Info about the company</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec neque quis justo aliquam blandit. Quisque interdum felis vel tortor tincidunt molestie. Sed sollicitudin vehicula eros. In hac habitasse platea dictumst. Ut lobortis sapien sit amet est malesuada suscipit.</p>
-    <p>Maecenas egestas magna at eros ultrices egestas. Donec nec erat ante, ac eleifend diam. Ut et purus sem. Aenean sit amet lorem egestas sapien hendrerit tempor.</p>
-    <h2>Other things you must know</h2>
-    <p>Suspendisse malesuada, ligula vitae molestie sodales, felis mauris consequat risus, in ornare quam lorem sed purus. Suspendisse at enim lectus.</p>
-    <p>Suspendisse eleifend sagittis dolor sed vehicula. Nam pretium elit sem, vel volutpat leo. Donec elementum venenatis sapien, eu adipiscing neque accumsan pretium.</p>
-    <h2>Some people on our team</h2>
+    <h2>Informations</h2>
+
+    <p><%= Vitatechpharma.config.site_name %> est une société marocaine qui oeuvre dans la distribution des compléments alimentaires.Son
+      objectif est la prise en charge de la douleur, la prévention et l’amélioration du bien-être du corps à long terme.
+      <%= Vitatechpharma.config.site_name %> ne cesse de satisfaire les attentes des patients et de faire évoluer sa gamme de produits.</p>
+    <p>Les produits <%= Vitatechpharma.config.site_name %> sont en vente au grand public dans les pharmacies et parapharmacies distributrices.
+      Ce choix de points de vente est voulu afin de faire bénéficier le patient de conseils professionnels personnalisés
+      dans l’objectif de meilleurs résultats des produits.</p>
+
+    <h2>Ce que vous devez savoir</h2>
+
+    <p>Ce site est un support d’informations mais aussi de promotion pour la vente des produits ViatatechPharma, en pharmacie et parapharmacie. Il bénéficie d’un puissant référencement naturel qui favorise le développement commercial des produits <%= Vitatechpharma.config.site_name %> pour ses points de vente.</p>
+
+    <h2>Notre équipe</h2>
     <ul>
       <li>James Watt - Engineer</li>
       <li>Leonardo da Vinci - Inventor & Genius</li>
@@ -26,19 +33,13 @@
   <div class=span3>
     <ul class="thumbnails">
       <li class="span3">
-        <a href="img/media/normal/Image006.jpg" rel="lightbox[album1]" class="thumbnail">
-          <img src="img/media/thumbs/Image006.jpg" alt="">
-        </a>
+        <%= link_to image_tag("media/thumbs/img001.jpg", alt: ""), "#", class:"thumbnail" %>
       </li>
       <li class="span3">
-        <a href="img/media/normal/Image010.jpg" rel="lightbox[album1]" class="thumbnail">
-          <img src="img/media/thumbs/Image010.jpg" alt="">
-        </a>
+        <%= link_to image_tag("media/thumbs/img002.jpg", alt: ""), "#", class:"thumbnail"%>
       </li>
       <li class="span3">
-        <a href="img/media/normal/Image008.jpg" rel="lightbox[album1]" class="thumbnail">
-          <img src="img/media/thumbs/Image008.jpg" alt="">
-        </a>
+        <%= link_to image_tag("media/thumbs/img003.jpg", alt: ""), "#", class:"thumbnail" %>
       </li>
     </ul>
   </div>
