@@ -67,7 +67,6 @@ module Vitatechpharma
    #load config
     YAML.load_file("#{Rails.root}/config/config.yml").each { |k,v| config.send "#{k}=", v }
 
-
   end
   def self.config
     Application.config
