@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fface4b-3597-4fb4-9d8c-103343ac3fc8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="vitatechpharma.iws" />
@@ -11,7 +12,7 @@
     <file path="/application.html.erb" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1378228803871" ignored="false" />
     <file path="/application.css" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1378200599506" ignored="false" />
     <file path="/main_pages.css.scss" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1378199885755" ignored="false" />
-    <file path="/Gemfile" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1379019963531" ignored="false" />
+    <file path="/Gemfile" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1379021146250" ignored="false" />
     <file path="/application.js" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1378201302858" ignored="false" />
     <file path="/lightbox.css.scss" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1378202056335" ignored="false" />
     <file path="/style.css.scss" changelist="2fface4b-3597-4fb4-9d8c-103343ac3fc8" time="1378202131334" ignored="false" />
@@ -119,7 +120,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="20" selection-start="646" selection-end="646" vertical-scroll-proportion="0.6581986">
+            <state line="31" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.6974596">
               <folding />
             </state>
           </provider>
@@ -907,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="646" selection-end="646" vertical-scroll-proportion="0.6581986">
+        <state line="31" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.6974596">
           <folding />
         </state>
       </provider>
