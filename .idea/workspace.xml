@@ -119,7 +119,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="2" selection-start="640" selection-end="640" vertical-scroll-proportion="0.12933025">
+            <state line="30" column="24" selection-start="641" selection-end="641" vertical-scroll-proportion="0.09006929">
               <folding />
             </state>
           </provider>
@@ -907,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="2" selection-start="640" selection-end="640" vertical-scroll-proportion="0.12933025">
+        <state line="30" column="24" selection-start="641" selection-end="641" vertical-scroll-proportion="0.09006929">
           <folding />
         </state>
       </provider>

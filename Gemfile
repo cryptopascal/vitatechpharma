@@ -28,7 +28,7 @@ group :assets do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'sqlite3', '1.3.5'
   ruby '1.9.3'
 end
 
