@@ -10,7 +10,7 @@ gem "recaptcha", :require => "recaptcha/rails"
 
 
 group :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.5'
 end
 
 
@@ -29,7 +29,6 @@ end
 
 group :production do
   gem 'sqlite3', '1.3.5'
-  ruby '1.9.3'
 end
 
 
