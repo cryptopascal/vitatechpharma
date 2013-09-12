@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fface4b-3597-4fb4-9d8c-103343ac3fc8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="vitatechpharma.iws" />
@@ -120,7 +119,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.6974596">
+            <state line="1" column="12" selection-start="42" selection-end="42" vertical-scroll-proportion="0.03926097">
               <folding />
             </state>
           </provider>
@@ -908,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.6974596">
+        <state line="1" column="12" selection-start="42" selection-end="42" vertical-scroll-proportion="0.03926097">
           <folding />
         </state>
       </provider>
