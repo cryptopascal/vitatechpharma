@@ -1,0 +1,8 @@
+Service Notification
+Vous avez reçu un nouveau message:
+
+Date: <%= Time.now %>
+De :  <%= @contact.nom %>  <%= @contact.prenom %> | <%= @contact.email %>
+Sujet:  <%= @contact.subject %>
+Message:
+<%= @contact.message %>
