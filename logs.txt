@@ -1,0 +1,101 @@
+2013-09-13T08:23:16.006319+00:00 app[web.1]:     22: 
+2013-09-13T08:23:16.006319+00:00 app[web.1]:     23: <body>
+2013-09-13T08:23:16.006492+00:00 app[web.1]: 
+2013-09-13T08:23:16.009403+00:00 app[web.1]: Started GET "/" for 23.22.197.231 at 2013-09-13 08:23:16 +0000
+2013-09-13T08:23:16.006319+00:00 app[web.1]:   app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__250707141983108113_33927060'
+2013-09-13T08:23:16.006319+00:00 app[web.1]:     20:   <%= favicon_link_tag 'apple-touch-icon-precomposed.png' 'apple-touch-icon-precomposed' %>
+2013-09-13T08:23:16.006492+00:00 app[web.1]: 
+2013-09-13T08:23:16.027814+00:00 heroku[router]: at=info method=GET path=/ host=boiling-dusk-3956.herokuapp.com fwd="23.22.197.231" dyno=web.1 connect=1ms service=355ms status=500 bytes=643
+2013-09-13T08:23:16.011762+00:00 app[web.1]: Processing by MainPagesController#home as HTML
+2013-09-13T08:23:16.012813+00:00 app[web.1]:   Rendered main_pages/home.html.erb within layouts/application (0.5ms)
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     17:   <%= stylesheet_link_tag "application", :media => "all" %>
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     18:   <%= csrf_meta_tags %>
+2013-09-13T08:23:16.014256+00:00 app[web.1]: Completed 500 Internal Server Error in 2ms
+2013-09-13T08:23:16.016321+00:00 app[web.1]: 
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     19:   <%= favicon_link_tag 'favicon.ico' %>
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     20:   <%= favicon_link_tag 'apple-touch-icon-precomposed.png' 'apple-touch-icon-precomposed' %>
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     21: </head>
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     22: 
+2013-09-13T08:23:16.016321+00:00 app[web.1]:     23: <body>
+2013-09-13T08:23:16.016321+00:00 app[web.1]:   app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__250707141983108113_33927060'
+2013-09-13T08:23:16.016512+00:00 app[web.1]: 
+2013-09-13T08:23:16.016512+00:00 app[web.1]: 
+2013-09-13T08:23:16.017131+00:00 app[web.1]: Started GET "/" for 50.16.78.56 at 2013-09-13 08:23:16 +0000
+2013-09-13T08:23:16.018678+00:00 app[web.1]: Processing by MainPagesController#home as HTML
+2013-09-13T08:23:16.019731+00:00 app[web.1]:   Rendered main_pages/home.html.erb within layouts/application (0.5ms)
+2013-09-13T08:23:16.021311+00:00 app[web.1]: Completed 500 Internal Server Error in 3ms
+2013-09-13T08:23:16.023012+00:00 app[web.1]: 
+2013-09-13T08:23:16.023012+00:00 app[web.1]: ActionView::Template::Error (apple-touch-icon-precomposed.pngapple-touch-icon-precomposed isn't precompiled):
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     17:   <%= stylesheet_link_tag "application", :media => "all" %>
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     18:   <%= csrf_meta_tags %>
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     19:   <%= favicon_link_tag 'favicon.ico' %>
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     21: </head>
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     22: 
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     20:   <%= favicon_link_tag 'apple-touch-icon-precomposed.png' 'apple-touch-icon-precomposed' %>
+2013-09-13T08:23:16.023012+00:00 app[web.1]:     23: <body>
+2013-09-13T08:23:16.023012+00:00 app[web.1]:   app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__250707141983108113_33927060'
+2013-09-13T08:23:16.023165+00:00 app[web.1]: 
+2013-09-13T08:23:16.023165+00:00 app[web.1]: 
+2013-09-13T08:23:16.016321+00:00 app[web.1]: ActionView::Template::Error (apple-touch-icon-precomposed.pngapple-touch-icon-precomposed isn't precompiled):
+2013-09-13T08:23:16.014497+00:00 heroku[router]: at=info method=GET path=/ host=boiling-dusk-3956.herokuapp.com fwd="41.137.252.86" dyno=web.1 connect=3ms service=456ms status=500 bytes=643
+2013-09-13T08:23:16.325553+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=boiling-dusk-3956.herokuapp.com fwd="41.137.252.86" dyno=web.1 connect=3ms service=63ms status=200 bytes=0
+2013-09-13T08:23:16.436052+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=boiling-dusk-3956.herokuapp.com fwd="41.137.252.86" dyno=web.1 connect=2ms service=13ms status=200 bytes=0
+2013-09-13T08:23:16.713069+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=boiling-dusk-3956.herokuapp.com fwd="41.137.252.86" dyno=web.1 connect=2ms service=287ms status=200 bytes=0
+2013-09-13T08:23:18.093880+00:00 app[web.1]: ActionView::Template::Error (apple-touch-icon-precomposed.pngapple-touch-icon-precomposed isn't precompiled):
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     20:   <%= favicon_link_tag 'apple-touch-icon-precomposed.png' 'apple-touch-icon-precomposed' %>
+2013-09-13T08:23:18.086426+00:00 app[web.1]: Started GET "/" for 41.137.252.86 at 2013-09-13 08:23:18 +0000
+2013-09-13T08:23:18.093880+00:00 app[web.1]: 
+2013-09-13T08:23:18.089239+00:00 app[web.1]: Processing by MainPagesController#home as HTML
+2013-09-13T08:23:18.090976+00:00 app[web.1]:   Rendered main_pages/home.html.erb within layouts/application (0.8ms)
+2013-09-13T08:23:18.092206+00:00 app[web.1]: Completed 500 Internal Server Error in 3ms
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     17:   <%= stylesheet_link_tag "application", :media => "all" %>
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     18:   <%= csrf_meta_tags %>
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     19:   <%= favicon_link_tag 'favicon.ico' %>
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     21: </head>
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     22: 
+2013-09-13T08:23:18.093880+00:00 app[web.1]:     23: <body>
+2013-09-13T08:23:18.093880+00:00 app[web.1]:   app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__250707141983108113_33927060'
+2013-09-13T08:23:18.094047+00:00 app[web.1]: 
+2013-09-13T08:23:18.094047+00:00 app[web.1]: 
+2013-09-13T08:23:18.094140+00:00 heroku[router]: at=info method=GET path=/ host=boiling-dusk-3956.herokuapp.com fwd="41.137.252.86" dyno=web.1 connect=3ms service=16ms status=500 bytes=643
+2013-09-13T08:23:16.028794+00:00 heroku[router]: at=info method=GET path=/ host=boiling-dusk-3956.herokuapp.com fwd="50.16.78.56" dyno=web.1 connect=7ms service=325ms status=500 bytes=643
+2013-09-13T09:30:31.357840+00:00 heroku[web.1]: Idling
+2013-09-13T09:30:34.860793+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-09-13T09:30:35.788543+00:00 app[web.1]: [2013-09-13 09:30:35] ERROR SignalException: SIGTERM
+2013-09-13T09:30:35.788543+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2013-09-13T09:30:44.371384+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2013-09-13T09:30:44.371589+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2013-09-13T09:30:46.623884+00:00 heroku[web.1]: Process exited with status 137
+2013-09-13T09:30:46.644195+00:00 heroku[web.1]: State changed from up to down
+2013-09-14T19:07:59+00:00 heroku[slug-compiler]: Slug compilation started
+2013-09-14T19:09:10.553094+00:00 heroku[api]: Deploy eceb1d9 by cryptopascal@gmail.com
+2013-09-14T19:09:10.590315+00:00 heroku[api]: Release v10 created by cryptopascal@gmail.com
+2013-09-14T19:09:10.739080+00:00 heroku[web.1]: State changed from down to starting
+2013-09-14T19:09:12+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-09-14T19:09:15.657688+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 31741`
+2013-09-14T19:09:21.060462+00:00 app[web.1]: [2013-09-14 19:09:21] INFO  WEBrick 1.3.1
+2013-09-14T19:09:21.060524+00:00 app[web.1]: [2013-09-14 19:09:21] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]
+2013-09-14T19:09:21.061002+00:00 app[web.1]: [2013-09-14 19:09:21] INFO  WEBrick::HTTPServer#start: pid=2 port=31741
+2013-09-14T19:09:21.439924+00:00 heroku[web.1]: State changed from starting to up
+2013-09-14T19:09:37.427923+00:00 app[web.1]: Started GET "/" for 41.92.55.195 at 2013-09-14 19:09:37 +0000
+2013-09-14T19:09:37.427923+00:00 app[web.1]: => Booting WEBrick
+2013-09-14T19:09:37.427923+00:00 app[web.1]: => Call with -d to detach
+2013-09-14T19:09:37.427923+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-09-14T19:09:37.427923+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:31741
+2013-09-14T19:09:38.104919+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-09-14T19:09:38.299917+00:00 app[web.1]: Processing by MainPagesController#home as HTML
+2013-09-14T19:09:38.351835+00:00 app[web.1]:   Rendered main_pages/home.html.erb within layouts/application (5.4ms)
+2013-09-14T19:09:38.387695+00:00 heroku[router]: at=info method=GET path=/ host=boiling-dusk-3956.herokuapp.com fwd="41.92.55.195" dyno=web.1 connect=3ms service=973ms status=500 bytes=643
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     20:   <%= favicon_link_tag 'apple-touch-icon-precomposed.png' 'apple-touch-icon-precomposed' %>
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     21: </head>
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     19:   <%= favicon_link_tag 'favicon.ico' %>
+2013-09-14T19:09:38.383177+00:00 app[web.1]: ActionView::Template::Error (apple-touch-icon-precomposed.pngapple-touch-icon-precomposed isn't precompiled):
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     17:   <%= stylesheet_link_tag "application", :media => "all" %>
+2013-09-14T19:09:38.380802+00:00 app[web.1]: Completed 500 Internal Server Error in 80ms
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     18:   <%= csrf_meta_tags %>
+2013-09-14T19:09:38.383177+00:00 app[web.1]: 
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     22: 
+2013-09-14T19:09:38.383177+00:00 app[web.1]:     23: <body>
+2013-09-14T19:09:38.383177+00:00 app[web.1]:   app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__3805396123925474577_32964200'
+2013-09-14T19:09:38.383357+00:00 app[web.1]: 
+2013-09-14T19:09:38.383357+00:00 app[web.1]: 
