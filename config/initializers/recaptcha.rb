@@ -1,4 +1,4 @@
 Recaptcha.configure do |config|
-  config.public_key  = '6LeaVdASAAAAAE9qrDz3L5A1WMaWTxGxXgnwE4lo'
-  config.private_key = '6LeaVdASAAAAAKIVGXHRLzgN12RlQR8mkwa6pvzT'
+  config.public_key  = '6Ld9eucSAAAAAE6nweBFqvca3nV2U5ou1pD9ZFix'
+  config.private_key = '6Ld9eucSAAAAAEwZdsN-A3RoaB-rTCVGFZuaa0qo'
 end
