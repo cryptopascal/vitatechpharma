@@ -13,13 +13,13 @@
         <div class=span7>
           <h3>NEWSLETTER</h3>
           <p>Inscrivez-vous, restez informé et suivez l'actualité scientifique de la Micronutrition!</p>
-          <form class="form-horizontal">
-            <div class="control-group">
-              <div class="input-append input-prepend">
-                <span class=add-on>@</span><input class=span4 type=text size=16><button class=btn type=button>sign up</button>
+          <%= form_for @newsletter, url: {action: "addToNewsletter"}, html: {class: "form-horizontal"} do |f| %>
+              <div class="control-group">
+                <div class="input-append input-prepend">
+                  <span class=add-on>@</span><%= f.text_field :email, class:"span4", size:"16" %><%= f.submit "Go", class: "btn" %>
+                </div>
               </div>
-            </div>
-          </form>
+          <% end %>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 class MainPagesController < ApplicationController
   def home
+    @newsletter = Newsletter.new
   end
 
   def about
@@ -7,6 +8,19 @@ class MainPagesController < ApplicationController
 
   def contact
     @contact = Contact.new
+  end
+
+
+
+  def addToNewsletter
+    @newsletter = Newsletter.new(params[:newsletter])
+    if @newsletter.valid?
+      @newsletter.save()
+      flash[:success] = 'Votre inscription est prise en compte'
+      redirect_to root_path
+    else
+      render "home"
+    end
   end
 
   def sendMessage

@@ -34,4 +34,16 @@
       </ul>
     </nav>
   </div>
+  <% if @newsletter.errors.any? %>
+  <div id="error explanation">
+    <div class="alert alert-error">
+      Le formulaire contient <%= pluralize(@newsletter.errors.count, "error") %>.
+    </div>
+    <ul>
+      <% @newsletter.errors.full_messages.each do |msg| %>
+          <li>* <%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
 </header>
